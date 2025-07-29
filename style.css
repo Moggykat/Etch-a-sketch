@@ -1,0 +1,60 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#bigcont {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.btn {
+ height: 38px;
+ background-color: cadetblue;
+ border: 2px solid black;
+ font-family: monospace;
+ margin: 2px grey;
+}
+
+#grid-size {
+ background-color: cadetblue;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+ 
+    
+    
+}
+
+.col {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+.permahover {
+    background-color: black;
+
+}
